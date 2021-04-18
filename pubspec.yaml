@@ -48,6 +48,15 @@ flutter:
   assets:
   - assets/background.png
   - assets/logo.png
+  - assets/an.jpg
+  - assets/dm.jpg
+  - assets/ad.jpg
+  - assets/st.jpg
+  - assets/tn.jpg
+  - assets/ar.jpg
+  - assets/mz.jpg
+  - assets/profile_pic_full.png
+  - assets/profile_pic.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

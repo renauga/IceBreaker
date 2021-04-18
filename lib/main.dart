@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'explore.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
@@ -85,7 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
           width: 300.0,
           height: 100.0,
           //   child: Padding(child: ,)
-          child: TextButton(onPressed: null, child: Text("Move Forward")
+          child: TextButton(onPressed: () {
+          Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => MyApp2()),
+          );
+          }, child: Text("Move Forward")
 
                 , style: ButtonStyle(
                    foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
@@ -103,7 +109,10 @@ class _MyHomePageState extends State<MyHomePage> {
              ,new SizedBox(
                  width: 300.0,
                  height: 100.0,
-                 child:  TextButton(onPressed: null, child: Text("Told you, Move Forward")
+                 child:  TextButton(onPressed: () {Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyApp2()),
+                  );}, child: Text("Told you, Move Forward")
 
                      , style: ButtonStyle(
                          foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
